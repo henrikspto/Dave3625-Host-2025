@@ -15,21 +15,26 @@ Do the following:
 
 You can pick one of the following use cases:
 
-1. Predict stock market price for GameStop.
+### 1. Predict stock market price for GameStop.
 
 https://www.kaggle.com/datasets/hananxx/gamestop-historical-stock-prices
 Make a prediction algorithm which predicts the price of this stock on a specific date. Input will be date and output should be price of that stock (close value in the data file).
 You should also show the prediction percentage score.
 Data file: GME_stock.csv
 
-2. Bysykkel Station Popularity Classification
+### 2. Predict passenger data for Ruter. 
+
+Use Ruter-data.csv dataset (in data folder). I want you to make a prediction algorithm which predicts the number of passengers on a specific date for a specific bus (pick any one). Input should be date and output will be number of passengers You should also show the prediction percentage score. 
+Data file: Ruter_data.csv
+
+### 3. Bysykkel Station Popularity Classification
 
 https://oslobysykkel.no/apne-data/historisk
-Using the Oslo Bysykkel dataset, create a classification algorithm that predicts whether a bike station is **High**, **Medium**, or **Low** popularity based on usage patterns.
+Using the Oslo Bysykkel dataset, create a algorithm that predicts whether a bike station is **High**, **Medium**, or **Low** popularity based on usage patterns.
 Task Details:
 Example input features: Station location, total trips started from station, total trips ended at station, average trip duration, day of week patterns
 Example output: Popularity category (High/Medium/Low usage)
-Data file: `Bysykkel_09.csv` (September 2025 data with ~138,000 trip records)
+Data file: `Bysykkel_09.csv` (September 2025 data with about 138,000 trip records)
 
 Suggested steps:
 Data processing: Group trips by stations and calculate total metrics for each station (feel free to use a small subset of the stations to simplify the processing if needed). Create features like total_trips_started, total_trips_ended, avg_duration and station id.
@@ -40,7 +45,7 @@ Train the model using these features or others to predict popularity category.
 Show accuracy scores and confusion matrix.
 
 
-3. Find your own dataset online, for example on: https://www.kaggle.com/datasets
+### 4. Find your own dataset online, for example on: https://www.kaggle.com/datasets
 
 Make a prediction algorithm using regression or classification. You should also show the prediction accuracy score and confusion matrix.
 
